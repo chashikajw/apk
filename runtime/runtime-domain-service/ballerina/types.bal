@@ -223,6 +223,7 @@ public type ServiceList record {
 public type API_serviceInfo record {
     string name?;
     string namespace?;
+    record {} endpoint_security?;
 };
 
 public type APIInfo record {
